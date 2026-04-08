@@ -1,0 +1,60 @@
+.App {
+  min-height: 100vh;
+}
+
+/* Navigation Links */
+.nav-link {
+  @apply text-gray-700 hover:text-rose-600 font-medium transition-colors duration-200;
+}
+
+/* Smooth Animations */
+.service-card {
+  @apply transition-transform duration-300;
+}
+
+.service-card:hover {
+  @apply -translate-y-1;
+}
+
+.gallery-item {
+  @apply cursor-pointer;
+}
+
+.testimonial-card {
+  @apply transition-transform duration-300;
+}
+
+.testimonial-card:hover {
+  @apply -translate-y-1;
+}
+
+.contact-card {
+  @apply transition-transform duration-300;
+}
+
+.contact-card:hover {
+  @apply -translate-y-1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e11d48;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #be123c;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
